@@ -5,4 +5,5 @@ int main()
   printf("大哥好呀好");
   printf("very GOOD !!");
   printf("GOOD morning !!");
+  printf("GOOD morning !!++++++++++++++");
 }
