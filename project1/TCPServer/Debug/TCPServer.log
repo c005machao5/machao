@@ -1,0 +1,24 @@
+﻿生成启动时间为 2019/8/9 15:42:52。
+     1>项目“D:\Qt Project\TCPServer\TCPServer\TCPServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ID:\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\TCPServer.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt TCPServer.cpp
+         TCPServer.cpp
+     1>d:\qt project\tcpserver\tcpserver\mysqldb.h(20): warning C4101: “result”: 未引用的局部变量
+     1>d:\qt project\tcpserver\tcpserver\mysqldb.h(21): warning C4101: “row”: 未引用的局部变量
+     1>d:\qt project\tcpserver\tcpserver\tcpserver.cpp(110): warning C4101: “result”: 未引用的局部变量
+     1>d:\qt project\tcpserver\tcpserver\tcpserver.cpp(111): warning C4101: “row”: 未引用的局部变量
+     1>d:\qt project\tcpserver\tcpserver\tcpserver.cpp(107): warning C4101: “t”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Qt Project\TCPServer\Debug\TCPServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\lib libmysql.lib mysqlclient.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Qt Project\TCPServer\Debug\TCPServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Qt Project\TCPServer\Debug\TCPServer.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\TCPServer.obj
+     1>TCPServer.obj : error LNK2019: 无法解析的外部符号 _mysql_error@4，该符号在函数 _main 中被引用
+     1>TCPServer.obj : error LNK2019: 无法解析的外部符号 _mysql_init@4，该符号在函数 _main 中被引用
+     1>TCPServer.obj : error LNK2019: 无法解析的外部符号 _mysql_real_connect@32，该符号在函数 _main 中被引用
+     1>D:\lib\libmysql.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+     1>D:\lib\mysqlclient.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+     1>D:\Qt Project\TCPServer\Debug\TCPServer.exe : fatal error LNK1120: 3 个无法解析的外部命令
+     1>已完成生成项目“D:\Qt Project\TCPServer\TCPServer\TCPServer.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.17
