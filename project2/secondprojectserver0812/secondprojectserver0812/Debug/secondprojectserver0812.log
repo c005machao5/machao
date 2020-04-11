@@ -1,0 +1,12 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  secondprojectserver0812.cpp
+d:\learn\secondprojectserver0812\secondprojectserver0812\serversocket.h(39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\learn\secondprojectserver0812\secondprojectserver0812\serversocket.h(40): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\learn\secondprojectserver0812\secondprojectserver0812\serversocket.h(41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\learn\secondprojectserver0812\secondprojectserver0812\serversocket.h(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+  secondprojectserver0812.vcxproj -> D:\learn\secondprojectserver0812\Debug\secondprojectserver0812.exe
+  secondprojectserver0812.vcxproj -> D:\learn\secondprojectserver0812\Debug\secondprojectserver0812.pdb (Full PDB)
